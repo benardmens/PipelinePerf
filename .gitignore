@@ -1,0 +1,8 @@
+
+PipeWriterSample/obj/
+
+PipeWriterSample\.Test/obj/
+
+PipeWriterSample\.Test/bin/Debug/netcoreapp2\.1/
+
+PipeWriterSample/bin/Debug/netstandard2\.0/
