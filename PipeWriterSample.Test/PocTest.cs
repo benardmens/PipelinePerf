@@ -23,7 +23,7 @@ namespace PipeWriterSample.Test
             };
             //   reader.OnObject += x => count++;
             var record = new Record(SystemClock.Instance.GetCurrentInstant(), Enumerable.Range(1, 50).Select(x => new RecordEntry(random.NextDouble())));
-            var records = Enumerable.Range(1, 2300).Select(x => record);
+            var records = Enumerable.Range(1, 10000).Select(x => record);
             var sw = Stopwatch.StartNew();
             writer.Write(records).Wait();
             sw.Stop();

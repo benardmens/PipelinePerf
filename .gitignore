@@ -6,3 +6,7 @@ PipeWriterSample\.Test/obj/
 PipeWriterSample\.Test/bin/Debug/netcoreapp2\.1/
 
 PipeWriterSample/bin/Debug/netstandard2\.0/
+
+\.vs/PipeWriterSample/v15/Server/sqlite3/
+
+\.vs/PipeWriterSample/v15/\.suo
